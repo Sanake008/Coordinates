@@ -15,6 +15,8 @@ struct Vector3
     float z;
 };
 
+/*Esta es una anotacion */
+
 void Addition(Vector3 a, Vector3 b, Vector3 *res);
 Vector3 Subtraction (Vector3 a, Vector3 b);
 void Printvector(Vector3 *v);
