@@ -1,23 +1,14 @@
 #include <iostream>
 
-/*
-Implementar en una función el siguiente algoritmo para ordenar un array de enteros.
-La idea es recorrer simultáneamente el array desde el principio y desde el final, comparando los elementos. Si los valores comparados no están en el orden adecuado, se intercambian y se vuelve a empezar el bucle. Si están bien ordenados, se compara el siguiente par.
-El proceso termina cuando los punteros se cruzan, ya que eso indica que hemos comparado la primera mitad con la segunda y todos los elementos estaban en el orden correcto.
-Usar una función con tres parámetros:
-void Ordenar(int* vector, int nElementos, bool ascendente);
-De nuevo, no se deben usar enteros, sólo punteros y aritmética de punteros.
-*/
-
 using namespace std;
 
 char str []="abcdefghijklñmnopqrstuvwxyz";
 int arr []={1,2,3};
 
-int strLength (char *str);
-int charPosition(char *ptr, char *c);
-void Order(int *arr, int nElements, bool asc);
-void PrintArr(int *arr);
+int strLength (char *);
+int charPosition(char *, char *);
+void Order(int *, int, bool);
+void PrintArr(int *);
 
 int main()
 {
